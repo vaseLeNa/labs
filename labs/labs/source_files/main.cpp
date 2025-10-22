@@ -1,11 +1,11 @@
-﻿#include "filters.h"
+﻿#include "../header_files/filters.h"
 #include <string>
 #include <iostream>
-#include "menu.h"
-#include "logging.h"
+#include "../header_files/menu.h"
+#include "../header_files/logging.h"
 #include <format>
 #include <chrono>
-#include "GN.h"
+#include "../header_files/GN.h"
 
 using namespace std;
 using namespace chrono;

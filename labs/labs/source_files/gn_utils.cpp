@@ -1,8 +1,8 @@
-﻿#include "utils.h"
+﻿#include "../header_files/utils.h"
 #include <string>
 #include <iostream>
 #include <fstream>
-#include "GN.h"
+#include "../header_files/GN.h"
 
 using namespace std;
 
@@ -41,7 +41,7 @@ void GasNetwork::SaveAll()
 	cout << "Enter a file name" << endl;
 	string filename;
 	getline(cin >> ws, filename);
-	ofstream file(filename);
+	ofstream file("./data_files/" + filename);
 	if (file.is_open())
 	{
 		for (auto& pair : this->pipesmap) {
@@ -64,7 +64,7 @@ void GasNetwork::Download() {
 
 	cout << "Enter a file name" << endl;
 	getline(cin >> ws, filename);
-	ifstream file(filename);
+	ifstream file("./data_files/" + filename);
 
 
 	if (file.is_open()) {

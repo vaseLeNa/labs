@@ -15,60 +15,63 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="filters.h">
+    <ClInclude Include="header_files\gn_utils.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="GN.h">
+    <ClInclude Include="header_files\logging.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="gn_utils.h">
+    <ClInclude Include="header_files\menu.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="logging.h">
+    <ClInclude Include="header_files\pipe.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="menu.h">
+    <ClInclude Include="header_files\utils.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="pipe.h">
+    <ClInclude Include="header_files\cs.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="utils.h">
+    <ClInclude Include="header_files\Deikstra.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="cs.h">
+    <ClInclude Include="header_files\dfs_by_Makkoveeva.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="dfs_by_Makkoveeva.h">
+    <ClInclude Include="header_files\EdmondsKarp_1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="header_files\filters.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="header_files\GN.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GN.cpp">
+    <ClCompile Include="source_files\gn_utils.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="gn_utils.cpp">
+    <ClCompile Include="source_files\main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="logging.cpp">
+    <ClCompile Include="source_files\menu.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="menu.cpp">
+    <ClCompile Include="source_files\pipe.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="pipe.cpp">
+    <ClCompile Include="source_files\utils.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="timofeeva.cpp">
+    <ClCompile Include="source_files\cs.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="utils.cpp">
+    <ClCompile Include="source_files\filters.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="cs.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="filters.cpp">
+    <ClCompile Include="source_files\GN.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
